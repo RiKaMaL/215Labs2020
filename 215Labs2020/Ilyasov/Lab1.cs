@@ -14,7 +14,7 @@ namespace _215Labs2020.Ilyasov
             public double scoreProgrammy;
             public double scoreInformation;
         }
-        public static void p(int f)
+        public static void p(int b)
         {
             Student[] StudentName = new Student[5];
             for (int i = 0; i < StudentName.Length; i++)
