@@ -86,12 +86,19 @@ namespace _215Labs2020.Ilyasov
             for (int i = 0; i < marcs.Length; i++)
             {
                 if (i < a + 1) Console.WriteLine("Enter student name");
+               
                 if (i < a + 1) marcs[i].Name = Console.ReadLine();
+                
                 if (i < a + 1) Console.WriteLine("Enter inf mark");
+               
                 if (i < a + 1) marcs[i].inf = int.Parse(Console.ReadLine());
+              
                 if (i < a + 1) Console.WriteLine("Enter programmy mark");
+               
                 if (i < a + 1) marcs[i].programmy = int.Parse(Console.ReadLine());
+                
                 if (i < a + 1) Console.WriteLine("Enter math mark");
+               
                 if (i < a + 1) marcs[i].math = int.Parse(Console.ReadLine());
 
             }
